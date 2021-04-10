@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Journals</title>
+        <link rel="stylesheet" href="https://github.com/ycc0571">
+    </head>
+
+    <body>
+        <h1>My Journals</h1>
+        <details>
+            <summary>Yuchen Jin</summary>
+            <p>A16157735</p>
+        </details>
+        <hr>
+        <header>
+            <div><h3>All Journals</h3></div>
+            <nav>
+                <ul>
+                    <li><a href="#Apr7th">Journal 1</a></li>
+                    <li><a href="#Apr8th">Journal 2</a></li>
+                    <li><a href="#Apr9th">Journal 3</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <section id="Apr7th">
+                <h2>Journal for Apr. 7th</h2>
+                <p>I walked to UTC after I finished my classes. I found out that a branch of my <b>favourite</b> hot pot restaurant is opening soon.</p>
+                <img src="haidilao.jpg" width="500" alt="Picture of Haidilao"/>
+                <p>One new thing added to my life goals.</p>
+                <ol>
+                    <li><input type="checkbox" checked /> Be a CS major</li>
+                    <li><input type="checkbox" checked /> Own a cool gaming PC</li>
+                    <li><input type="checkbox" /> Own a cooler gaming PC</li>
+                    <li><input type="checkbox" /> Own the most expensive house in La Jolla</li>
+                    <li><input type="checkbox" /> <strong>Eat at <span style="color:red;font-weight:bold">Haidilao</span> in UTC</strong></li>
+                  </ol>
+            </section>
+            <hr>
+            <section id="Apr8th">
+                <h2>Journal for Apr. 8th</h2>
+                <p>I had an interview today. I woke up early, attended lectures and prepared for my interview.</p>
+                <p>I was nervous. I like to listen to <i>music</i> when I'm nervous. Here's one of my favourite songs, <em>Clair de Lune</em> by <a href="https://en.wikipedia.org/wiki/Claude_Debussy">Debussy</a>.</p>
+                <audio controls>
+                    <source src="ClairdeLune.mp3">
+                </audio> 
+                <p>The interview was fine. But I feel so tired, so I fell asleep at 7:40 pm.</p>
+            </section>
+            <hr>
+            <section id="Apr9th">
+                <h2>Journal for Apr. 9th</h2>
+                <p>I woke up at 8:40 am, which means I slept for 13 hours. WOW!</p>
+                <p>As usual, I watched lectures and did some homework. I decided to make pasta with homemade sauce today. Look at the sauce boiling!</p>
+                <video width="500" controls>
+                    <source src="Pasta.mp4" type="video/mp4">
+                  </video>
+            </section>
+            <hr>
+        </main>
+
+        <form>
+            <h3>Tell me about yourself!</h3>
+            <fieldset>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"><br>
+                <input type="radio" id="freshman" name="year" value="freshman">
+                <label for="freshman">Freshman</label><br>
+                <input type="radio" id="sophomore" name="year" value="sophomore">
+                <label for="sophomore">Sophomore</label><br>
+                <input type="radio" id="junior" name="year" value="junior">
+                <label for="junior">Junior</label><br>
+                <input type="radio" id="senior" name="year" value="senior">
+                <label for="senior">Senior</label><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br>
+                <label for="favfood">What's your favourite food?</label><br>
+                <textarea id="favfood" name="favfood" rows="4" cols="50">Mine is boba tea!</textarea><br>
+                <label for="pronouns">What's your pronoun?</label>
+                <input list="pronoun" id="pronouns" name="pronouns" />
+                <datalist id="pronoun">
+                    <option value="She/Her/Hers">
+                    <option value="He/Him/His">
+                    <option value="They/Them/Theirs">
+                </datalist><br>
+                <label for="colors">Choose a color that you like:</label>
+                <select name="colors" id="colors">
+                  <option value="none of them">None of them</option>
+                  <option value="Blue">Blue</option>
+                  <option value="Red">Red</option>
+                  <option value="Yellow">Yellow</option>
+                  <option value="Black">Black</option>
+                </select>
+                <button type="button">Submit</button>
+            </fieldset>
+        </form>
+
+        <footer>
+            <div>&copy; Yuchen Jin @ github.com/ycc0571</div>
+        </footer>
+    </body>
+
+</html>
