@@ -18,8 +18,19 @@
         <header>
             <div><h3>All Journals</h3></div>
             <nav>
-                <ul>
+                <ul class="flex-container">
                     <li><a href="#Apr7th">Journal 1</a></li>
+                    <li><a href="#Apr8th">Journal 2</a></li>
+                    <li><a href="#Apr9th">Journal 3</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#Apr7th">Journal 1</a>
+                        <ul>
+                            <li>
+                                haiya
+                            </li>
+                        </ul>
+                    </li>
                     <li><a href="#Apr8th">Journal 2</a></li>
                     <li><a href="#Apr9th">Journal 3</a></li>
                 </ul>
@@ -32,22 +43,23 @@
                 <p>I walked to UTC after I finished my classes. I found out that a branch of my <b>favourite</b> hot pot restaurant is opening soon.</p>
                 <img src="Haidilao.jpg" width="500" alt="Picture of Haidilao"/>
                 <p>One new thing added to my life goals.</p>
-                <ol>
-                    <li><input type="checkbox" checked /> Be a CS major</li>
-                    <li><input type="checkbox" checked /> Own a cool gaming PC</li>
-                    <li><input type="checkbox" /> Own a cooler gaming PC</li>
-                    <li><input type="checkbox" /> Own the most expensive house in La Jolla</li>
-                    <li><input type="checkbox" /> <strong>Eat at <span style="color:red;font-weight:bold">Haidilao</span> in UTC</strong></li>
+                <ol class="grid-container">
+                    <p class="grid-item"><input type="checkbox" checked /> Be a CS major</p>
+                    <p class="grid-item"><input type="checkbox" checked /> Own a cool gaming PC</p>
+                    <p class="grid-item"><input type="checkbox" /> Own a cooler gaming PC</p>
+                    <p class="grid-item"><input type="checkbox" /> Own the most expensive house in La Jolla</p>
+                    <p class="grid-item"><input type="checkbox" /> <strong>Eat at <span style="color:red;font-weight:bold">Haidilao</span> in UTC</strong></p>
                   </ol>
             </section>
             <hr>
             <section id="Apr8th">
                 <h2>Journal for Apr. 8th</h2>
                 <p>I had an interview today. I woke up early, attended lectures and prepared for my interview.</p>
-                <p>I was nervous. I like to listen to <i>music</i> when I'm nervous. Here's one of my favourite songs, <em>Clair de Lune</em> by <a href="https://en.wikipedia.org/wiki/Claude_Debussy">Debussy</a>.</p>
-                <audio controls>
-                    <source src="ClairdeLune.mp3">
-                </audio> 
+                <p>I was nervous. I like to listen to <i>music</i> when I'm nervous. Here's one of my favourite songs, <em>Clair de Lune</em> by <a href="https://en.wikipedia.org/wiki/Claude_Debussy">Debussy</a>.
+                    <audio controls>
+                        <source src="ClairdeLune.mp3">
+                    </audio> 
+                </p>
                 <p>The interview was fine. But I feel so tired, so I fell asleep at 7:40 pm.</p>
             </section>
             <hr>
@@ -57,7 +69,8 @@
                 <p>As usual, I watched lectures and did some homework. I decided to make pasta with homemade sauce today. Look at the sauce boiling!</p>
                 <video width="500" controls>
                     <source src="Pasta.mp4" type="video/mp4">
-                  </video>
+                </video>
+                <p>Noice.</p>
             </section>
             <hr>
         </main>
