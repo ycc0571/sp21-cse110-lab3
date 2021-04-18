@@ -1,5 +1,24 @@
 /* CSS files add styles to your content */
-body {
+
+ @media (min-aspect-ratio: 8/5) {
+    fieldset {
+      background: rgb(100, 108, 151); 
+    }
+  }
+  
+  @media (max-aspect-ratio: 3/2) {
+    fieldset {
+      background: rgb(43, 48, 71);
+    }
+  }
+  
+  @media (aspect-ratio: 1/1) {
+    fieldset {
+      background: rgb(187, 192, 218)
+    }
+  }
+
+ body {
     text-align: justify;
     font-family: Garamond, sans-serif;
     font-size: 23px;
@@ -30,5 +49,16 @@ body {
     color: #dcdcff;
   }
   
-
+  img{
+    display: block;
+    position: static;
+    max-width: 500;
+    min-width: 500;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1vh;
+    border-style: solid;
+    border-color: #a5a4af;
+    border-radius: 10px;
+  }
   
